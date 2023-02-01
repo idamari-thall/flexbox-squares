@@ -13,6 +13,13 @@ body {
     flex-wrap: wrap;
 }
 
+.card {
+    width: 78px;
+    height: 78px;
+    border-radius: 4px;
+    background-color: #ffb4a2;
+}
+
 /* Top left box */
 .container-top-left {
     width: 468px;
@@ -25,26 +32,14 @@ body {
 }
 
 .container-top-left__card-first {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin: 0 20px 19px 20px;
 }
 
 .container-top-left__card-middle {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-bottom: 19px;
 }
 
 .container-top-left__card-last {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-left: 19px;
     margin-bottom: 19px;
 }
@@ -60,28 +55,14 @@ body {
     align-items: center;
 }
 
-.container-top-right__card-first {
-    width: 78px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
-}
+.container-top-right__card-first {}
 
 .container-top-right__card-middle {
-    width: 78px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-right: 20px;
     margin-left: 20px;
 }
 
-.container-top-right__card-last {
-    width: 78px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
-}
+.container-top-right__card-last {}
 
 /* Middle left box */
 .container-middle-left {
@@ -95,26 +76,14 @@ body {
 }
 
 .container-middle-left__card-first {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-right: 20px;
 }
 
 .container-middle-left__card-middle {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-right: 20px;
 }
 
 .container-middle-left__card-last {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-right: 20px;
 }
 
@@ -130,27 +99,15 @@ body {
 }
 
 .container-middle-right__card-first {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-top: 20px;
     margin-left: 20px;
 }
 
 .container-middle-right__card-middle {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-top: 20px;
 }
 
 .container-middle-right__card-last {
-    width: 78px;
-    height: 78px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-right: 20px;
     align-self: flex-end;
     margin-right: 20px;
@@ -169,10 +126,6 @@ body {
 }
 
 .container-bottom-left__card-first {
-    width: 78px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-left: 4.5px;
     display: flex;
     justify-content: center;
@@ -180,20 +133,12 @@ body {
 }
 
 .container-bottom-left__card-middle {
-    width: 78px;
-    height: 64px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container-bottom-left__card-last {
-    width: 78px;
-    height: 120px;
-    border-radius: 4px;
-    background-color: #ffb4a2;
     margin-right: 4.5px;
     display: flex;
     justify-content: center;
@@ -225,15 +170,11 @@ p {
 }
 
 .container-bottom-right__card-first {
-    width: 78px;
-    height: 78px;
     border-radius: 4px;
     background-color: #ffb4a2;
 }
 
 .container-bottom-right__card-middle {
-    width: 156px;
-    height: 78px;
     border-radius: 4px;
     background-color: #ffb4a2;
     margin-right: 20px;
@@ -241,8 +182,6 @@ p {
 }
 
 .container-bottom-right__card-last {
-    width: 78px;
-    height: 78px;
     border-radius: 4px;
     background-color: #ffb4a2;
 }
