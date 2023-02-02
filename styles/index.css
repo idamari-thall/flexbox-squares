@@ -1,7 +1,11 @@
+/* Endast texten kvar. */
+
 body {
     background-color: #b5838d;
 }
 
+/* Vet inte om det är okej att blocket inte ligger mer mitt på sidan. 
+Ge gärna något tips på hur jag hade kunnat göra för att få det så i så fall. */
 .main-container {
     width: 956px;
     height: 510px;
@@ -24,6 +28,7 @@ body {
 
 .card {
     width: 78px;
+    min-height: 78px;
     border-radius: 4px;
     background-color: #ffb4a2;
     align-item: normal;
@@ -35,18 +40,10 @@ body {
     align-items: flex-end;
 }
 
-.container-top-left__card-first {
-    margin: 0 20px 19px 20px;
-}
-
 .container-top-left__card-middle {
-    margin-bottom: 19px;
+    margin: 0 20px;
 }
 
-.container-top-left__card-last {
-    margin-left: 19px;
-    margin-bottom: 19px;
-}
 
 /* Top right box */
 .container-top-right {
@@ -54,14 +51,9 @@ body {
     align-items: stretch;
 }
 
-.container-top-right__card-first {}
-
 .container-top-right__card-middle {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 0 20px;
 }
-
-.container-top-right__card-last {}
 
 /* Middle left box */
 .container-middle-left {
@@ -69,16 +61,8 @@ body {
     align-items: center;
 }
 
-.container-middle-left__card-first {
-    margin-right: 20px;
-}
-
 .container-middle-left__card-middle {
-    margin-right: 20px;
-}
-
-.container-middle-left__card-last {
-    margin-right: 20px;
+    margin: 0 20px;
 }
 
 /* Middle right box */
@@ -87,20 +71,8 @@ body {
     align-items: flex-start;
 }
 
-.container-middle-right__card-first {
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.container-middle-right__card-middle {
-    margin-top: 20px;
-}
-
 .container-middle-right__card-last {
-    margin-right: 20px;
     align-self: flex-end;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 /* Bottom left box */
@@ -150,22 +122,11 @@ p {
     align-items: center;
 }
 
-.container-bottom-right__card-first {
-    border-radius: 4px;
-    background-color: #ffb4a2;
-}
-
 .container-bottom-right__card-middle {
-    border-radius: 4px;
-    background-color: #ffb4a2;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin: 0 20px;
+    flex-grow: 0.5;
 }
 
-.container-bottom-right__card-last {
-    border-radius: 4px;
-    background-color: #ffb4a2;
-}
 
 
 /* 
