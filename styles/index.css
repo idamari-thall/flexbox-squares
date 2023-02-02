@@ -1,5 +1,3 @@
-/* Endast texten kvar. */
-
 body {
     background-color: #b5838d;
 }
@@ -83,36 +81,30 @@ Ge gärna något tips på hur jag hade kunnat göra för att få det så i så f
 
 .container-bottom-left__card-first {
     margin-left: 4.5px;
+    align-self: stretch;
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-self: stretch;
 }
 
 .container-bottom-left__card-middle {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .container-bottom-left__card-last {
     margin-right: 4.5px;
+    align-self: stretch;
     display: flex;
     justify-content: center;
-    align-items: center;
-    align-self: stretch;
 }
 
 p {
-    color: #b5838d;
+    color: #380c15;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 19px;
-    /*När jag räknar så blir det rätt att flytta upp texten 19px
-    men det ser inte rätt ut och förstår inte varför.*/
 }
 
 
@@ -134,4 +126,5 @@ p {
 #ffb4a2
 #e5989b
 #b5838d
-#6d6875 */
+#6d6875
+#380c15 */
