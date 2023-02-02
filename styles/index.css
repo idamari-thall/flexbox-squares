@@ -2,12 +2,11 @@ body {
     background-color: #b5838d;
 }
 
-/* Vet inte om det är okej att blocket inte ligger mer mitt på sidan. 
-Ge gärna något tips på hur jag hade kunnat göra för att få det så i så fall. */
 .main-container {
     width: 956px;
     height: 510px;
     background-color: #b5838d;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -41,7 +40,6 @@ Ge gärna något tips på hur jag hade kunnat göra för att få det så i så f
 .container-top-left__card-middle {
     margin: 0 20px;
 }
-
 
 /* Top right box */
 .container-top-right {
@@ -81,6 +79,7 @@ Ge gärna något tips på hur jag hade kunnat göra för att få det så i så f
 
 .container-bottom-left__card-first {
     margin-left: 4.5px;
+    padding-top: 20px;
     align-self: stretch;
     display: flex;
     justify-content: center;
@@ -93,6 +92,7 @@ Ge gärna något tips på hur jag hade kunnat göra för att få det så i så f
 
 .container-bottom-left__card-last {
     margin-right: 4.5px;
+    padding-top: 20px;
     align-self: stretch;
     display: flex;
     justify-content: center;
@@ -106,7 +106,6 @@ p {
     font-size: 12px;
     line-height: 14px;
 }
-
 
 /* Bottom right box */
 .container-bottom-right {
